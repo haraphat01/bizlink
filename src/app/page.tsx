@@ -4,11 +4,15 @@ import Footer from './components/Footer'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between ">
+    <main className="min-h-screen  ">
       <div className="bg-black text-white">
         <Navigation />
-        <div className="p-4">
-          <p>Welcome to BizLink, where small business dreams meet their perfect match. Whether you're a passionate entrepreneur looking to sell your thriving business or a savvy investor seeking the next big opportunity, BizLink is the bridge that brings your goals to reality.</p>
+        <div className="p-4 ">
+          <div className=' mt-5 h-80 text-center'>
+            <p className='text-5xl mb-5'>Welcome to Bizlink  </p>
+            <p className='text-3xl mb-5'>where small business dreams meet their perfect match</p>
+            <p className='text-3xl mb-5'>Whether you're a passionate entrepreneur looking to sell your thriving business or a savvy investor seeking the next big opportunity, BizLink is the bridge that brings your goals to reality.</p>
+          </div>
           <div className="my-4">
             <h2>Key Benefits:</h2>
             <ul>
@@ -26,7 +30,7 @@ export default function Home() {
             <button className="bg-blue-500 text-white px-4 py-2 rounded-md">List your business</button>
           </div>
         </div>
-        <Footer/>
+        <Footer />
       </div>
     </main>
   )
