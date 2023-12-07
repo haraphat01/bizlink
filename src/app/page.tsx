@@ -33,7 +33,7 @@ export default function Home() {
             <h2 className='text-5xl animate-pulse text-red-200'>Get Started Today:</h2>
             <p className="mb-3 text-2xl">Ready to embark on your business journey? </p>
             <p className="mb-3 text-2xl">Join BizLink now and take the first step towards a successful business transaction</p>
-            <button className="bg-blue-800 text-white px-4 py-2 rounded-md">List your business</button>
+            <button className="bg-blue-800 text-white px-4 py-2 rounded-md mt-10">List your business</button>
           </div>
         </div>
         <Footer />

@@ -19,6 +19,7 @@ const config: Config = {
       },
       margin: {
         '20': '15rem', // Custom margin
+        '10': '7.5rem',
         }
     },
   },
